@@ -1,0 +1,42 @@
+/*GLOBAL STYLING*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #eee;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+header#t-header {
+    width: 100%;
+    height: 80px;
+    background: #ffaeae;
+}
+main{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+section#globale-sct {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+article {
+    width: 100%;
+    height: 768px;
+}
+article#about {
+    background: red;
+}
+article#contact {
+    background: #6a97c5;
+}
+article#connect {
+    background: #ffff38;
+}
